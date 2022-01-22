@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.trending {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  ._trending {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+  ._trending::-webkit-scrollbar{
+    display: none;
+}
+
+.section_heading{
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 3px;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 30px;
+}
